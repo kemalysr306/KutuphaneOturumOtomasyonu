@@ -12,7 +12,7 @@ namespace AspNetWebAPIOAuth.OAuth
 
     
 {
-    [EnableCors(origins: "http://localhost:35013", headers: "*", methods: "*")]
+    
     // Servis çalışmaya başlarken Owin pipeline'ını ayağa kaldırabilmek için Startup'u hazırlıyoruz.
     public class Startup
     {
