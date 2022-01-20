@@ -25,6 +25,7 @@ namespace AspNetWebAPIOAuth
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<kullanicilar> kullanicis { get; set; }
+        public virtual DbSet<kullanicilar> kullanicilar { get; set; }
+        public virtual DbSet<oturumSuresi> oturumSuresi { get; set; }
     }
 }

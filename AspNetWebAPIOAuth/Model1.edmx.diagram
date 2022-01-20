@@ -6,6 +6,8 @@
     <edmx:Diagrams>
       <Diagram DiagramId="b549280c0d5b42cf803824cdc0b186b7" Name="Diagram1">
         <EntityTypeShape EntityType="KullaniciModel.kullanicilar" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KullaniciModel.oturumSuresi" Width="1.5" PointX="3" PointY="0.875" />
+        <AssociationConnector Association="KullaniciModel.FK_oturumSuresi_kullanicilar" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

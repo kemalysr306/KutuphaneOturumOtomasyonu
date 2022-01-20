@@ -8,7 +8,7 @@ using System;
 
 namespace AspNetWebAPIOAuth.OAuth.Providers
 {
-    
+    //Token alma işlemleri
     public class SimpleAuthorizationServerProvider : OAuthAuthorizationServerProvider
     {
         

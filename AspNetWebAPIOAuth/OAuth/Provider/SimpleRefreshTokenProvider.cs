@@ -10,7 +10,7 @@ using Microsoft.Owin.Security.Infrastructure;
 namespace AspNetWebAPIOAuth.OAuth.Providers
 
 {
-
+    // Refresh token alma işlemleri
     public class SimpleRefreshTokenProvider : IAuthenticationTokenProvider
     {
         [HttpGet]

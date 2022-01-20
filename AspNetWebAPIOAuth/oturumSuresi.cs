@@ -12,12 +12,11 @@ namespace AspNetWebAPIOAuth
     using System;
     using System.Collections.Generic;
     
-    public partial class kullanicilar
+    public partial class oturumSuresi
     {
         public int id { get; set; }
-        public string username { get; set; }
-        public string pass { get; set; }
+        public bool oturum { get; set; }
     
-        public virtual oturumSuresi oturumSuresi { get; set; }
+        public virtual kullanicilar kullanicilar { get; set; }
     }
 }
